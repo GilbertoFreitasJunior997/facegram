@@ -1,7 +1,8 @@
 import { FC } from 'react';
+import { LucideIcon } from 'lucide-react';
 
 type MenuRoute = {
-  icon: JSX.Element;
+  icon: LucideIcon;
   hideMenu?: false;
 };
 
